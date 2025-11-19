@@ -1,0 +1,8 @@
+<h1>Super Smash Bros Ultimate Roster#index</h1>
+
+<ul>
+    <% @characters.each do |ch| %>
+        <li> <%= link_to ch["name"], character_path(ch["id"]) %> </li>
+    <% end %>
+</ul>
+<p>Find me in app/views/characters/index.html.erb</p>
