@@ -60,3 +60,6 @@ group :development do
 end
 
 gem "faraday", "~> 2.14"
+gem "faraday-follow_redirects"
+
+gem "csv"

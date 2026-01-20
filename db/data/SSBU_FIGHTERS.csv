@@ -1,0 +1,88 @@
+character,introduced_in,game_series,has_spike,has_projectiles,has_counter,has_reflector
+Mario,SSB SSB N64,Super Mario,TRUE,TRUE,FALSE,TRUE
+DK,SSB SSB N64,Donkey Kong,TRUE,FALSE,FALSE,FALSE
+Link,SSB N64,The Legend of Zelda,FALSE,TRUE,FALSE,FALSE
+Samus,SSB N64,Metroid,TRUE,TRUE,FALSE,FALSE
+Dark Samus,SSB Ultimate,Metroid,TRUE,TRUE,FALSE,FALSE
+Yoshi,SSB N64,Yoshi,TRUE,TRUE,FALSE,FALSE
+Kirby,SSB N64,Kirby,TRUE,FALSE,FALSE,FALSE
+Fox,SSB N64,Star Fox,FALSE,TRUE,FALSE,TRUE
+Pikachu,SSB N64,Pokémon,TRUE,TRUE,FALSE,FALSE
+Luigi,SSB N64,Super Mario,TRUE,TRUE,FALSE,FALSE
+Ness,SSB N64,EarthBound,TRUE,TRUE,FALSE,FALSE
+Captain Falcon,SSB N64,F-Zero,TRUE,FALSE,FALSE,FALSE
+Jigglypuff,SSB N64,Pokémon,FALSE,FALSE,FALSE,FALSE
+Peach,SSB Melee,Super Mario,FALSE,TRUE,TRUE,FALSE
+Daisy,SSB Ultimate,Super Mario,FALSE,TRUE,TRUE,FALSE
+Bowser,SSB Melee,Super Mario,FALSE,FALSE,FALSE,FALSE
+Ice Climbers,SSB Melee,Ice Climbers,FALSE,TRUE,FALSE,FALSE
+Sheik,SSB Melee,The Legend of Zelda,FALSE,TRUE,FALSE,FALSE
+Zelda,SSB Melee,The Legend of Zelda,TRUE,TRUE,FALSE,TRUE
+Dr. Mario,SSB Melee,Super Mario,TRUE,TRUE,FALSE,TRUE
+Pichu,SSB Melee,Pokémon,TRUE,TRUE,FALSE,FALSE
+Falco,SSB Melee,Star Fox,TRUE,TRUE,FALSE,TRUE
+Marth,SSB Melee,Fire Emblem,TRUE,FALSE,TRUE,FALSE
+Lucina,SSB Ultimate,Fire Emblem,TRUE,FALSE,TRUE,FALSE
+Young Link,SSB Melee,The Legend of Zelda,FALSE,TRUE,FALSE,FALSE
+Ganondorf,SSB Melee,The Legend of Zelda,TRUE,FALSE,FALSE,FALSE
+Mewtwo,SSB Melee,Pokémon,TRUE,TRUE,FALSE,TRUE
+Roy,SSB Melee,Fire Emblem,TRUE,FALSE,TRUE,FALSE
+Chrom,SSB Ultimate,Fire Emblem,TRUE,FALSE,TRUE,FALSE
+Mr. Game & Watch,SSB Melee,Game & Watch,FALSE,TRUE,FALSE,TRUE
+Metaknight,SSB Brawl,Kirby,FALSE,FALSE,FALSE,FALSE
+Pit,SSB Brawl,Kid Icarus,TRUE,TRUE,FALSE,TRUE
+Dark Pit,SSB Ultimate,Kid Icarus,TRUE,TRUE,FALSE,TRUE
+Zero Suit Samus,SSB Brawl,Metroid,FALSE,TRUE,FALSE,FALSE
+Wario,SSB Brawl,Wario Ware,FALSE,FALSE,FALSE,FALSE
+Snake,SSB Brawl,Metal Gear Solid,TRUE,TRUE,FALSE,FALSE
+Ike,SSB Brawl,Fire Emblem,TRUE,FALSE,TRUE,FALSE
+Pokémon Trainer,SSB Brawl,Pokémon,TRUE,FALSE,FALSE,FALSE
+Squirtle,SSB Brawl,Pokémon,TRUE,FALSE,FALSE,FALSE
+Ivysaur,SSB Brawl,Pokémon,TRUE,FALSE,FALSE,FALSE
+Charizard,SSB Brawl,Pokémon,TRUE,FALSE,FALSE,FALSE
+Diddy Kong,SSB Brawl,Donkey Kong,TRUE,TRUE,FALSE,FALSE
+Lucas,SSB Brawl,EarthBound,TRUE,TRUE,FALSE,FALSE
+Sonic,SSB Brawl,Sonic the Hedgehog,FALSE,FALSE,FALSE,FALSE
+King Dedede,SSB Brawl,Kirby,TRUE,TRUE,FALSE,FALSE
+Olimar,SSB Brawl,Pikmin,TRUE,TRUE,FALSE,FALSE
+Lucario,SSB Brawl,Pokémon,FALSE,TRUE,TRUE,FALSE
+R.O.B.,SSB Brawl,R.O.B.,TRUE,TRUE,FALSE,FALSE
+Toon Link,SSB Brawl,The Legend of Zelda,FALSE,TRUE,FALSE,FALSE
+Wolf,SSB Brawl,Star Fox,TRUE,TRUE,FALSE,TRUE
+Villager,SSB WiiU / 3DS (Smash 4),Animal Crossing,TRUE,TRUE,FALSE,TRUE
+Mega Man,SSB WiiU / 3DS (Smash 4),MegaMan,TRUE,TRUE,FALSE,FALSE
+Wii Fit TRAINER,SSB WiiU / 3DS (Smash 4),Wii Fit,TRUE,TRUE,FALSE,FALSE
+Rosalina & Luma,SSB WiiU / 3DS (Smash 4),Super Mario,TRUE,TRUE,FALSE,FALSE
+Little Mac,SSB WiiU / 3DS (Smash 4),Punch-Out!!,FALSE,FALSE,TRUE,FALSE
+Greninja,SSB WiiU / 3DS (Smash 4),Pokémon,TRUE,TRUE,TRUE,FALSE
+Palutena,SSB WiiU / 3DS (Smash 4),Kid Icarus,TRUE,TRUE,TRUE,TRUE
+Pac-Man,SSB WiiU / 3DS (Smash 4),PAC-MAN,FALSE,TRUE,FALSE,FALSE
+Robin,SSB WiiU / 3DS (Smash 4),Fire Emblem,TRUE,TRUE,FALSE,FALSE
+Shulk,SSB WiiU / 3DS (Smash 4),The Legend of Zelda,TRUE,FALSE,TRUE,FALSE
+Bowser Jr.,SSB WiiU / 3DS (Smash 4),Super Mario,FALSE,TRUE,FALSE,FALSE
+Duck Hunt,SSB WiiU / 3DS (Smash 4),Duck Hunt,TRUE,TRUE,FALSE,FALSE
+Ryu,SSB WiiU / 3DS (Smash 4),Street Fighter,TRUE,TRUE,FALSE,FALSE
+Ken,SSB WiiU / 3DS (Smash 4),Street Fighter,TRUE,TRUE,FALSE,FALSE
+Cloud,SSB WiiU / 3DS (Smash 4),Final Fantasy,TRUE,TRUE,FALSE,FALSE
+Corrin,SSB WiiU / 3DS (Smash 4),Fire Emblem,FALSE,TRUE,TRUE,FALSE
+Bayonetta,SSB WiiU / 3DS (Smash 4),Bayonetta,TRUE,TRUE,TRUE,FALSE
+Inkling,SSB Ultimate,Splatoon,TRUE,TRUE,FALSE,FALSE
+Ridley,SSB Ultimate,Metroid,FALSE,TRUE,FALSE,FALSE
+Simon,SSB Ultimate,Castlevania,FALSE,TRUE,FALSE,FALSE
+Richter,SSB Ultimate,Castlevania,FALSE,TRUE,FALSE,FALSE
+King K. Rool,SSB Ultimate,Donkey Kong,TRUE,TRUE,TRUE,TRUE
+Isabelle,SSB Ultimate,Animal Crossing,TRUE,TRUE,FALSE,TRUE
+Incineroar,SSB Ultimate,Pokémon,TRUE,FALSE,TRUE,FALSE
+Piranha Plant,SSB Ultimate DLC,Super Mario,TRUE,TRUE,FALSE,FALSE
+Joker,SSB Ultimate DLC,Persona,TRUE,TRUE,TRUE,TRUE
+Hero,SSB Ultimate DLC,Dragon Quest,TRUE,TRUE,FALSE,TRUE
+Banjo & Kazooie,SSB Ultimate DLC,Banjo-Kazooie,TRUE,TRUE,FALSE,FALSE
+Terry,SSB Ultimate DLC,Fatal Fury,TRUE,FALSE,FALSE,FALSE
+Byleth,SSB Ultimate DLC,Fire Emblem,TRUE,TRUE,FALSE,FALSE
+Min Min,SSB Ultimate DLC,ARMS,TRUE,TRUE,FALSE,FALSE
+Steve,SSB Ultimate DLC,Minecraft,TRUE,TRUE,FALSE,FALSE
+Sephiroth,SSB Ultimate DLC,Final Fantasy,TRUE,TRUE,TRUE,FALSE
+Pyra,SSB Ultimate DLC,Xenoblade Chronicles,FALSE,TRUE,FALSE,FALSE
+Mythra,SSB Ultimate DLC,Xenoblade Chronicles,FALSE,TRUE,FALSE,FALSE
+Kazuya,SSB Ultimate DLC,Tekken,TRUE,TRUE,FALSE,TRUE
+Sora,SSB Ultimate DLC,Kingdom Hearts,FALSE,TRUE,FALSE,FALSE

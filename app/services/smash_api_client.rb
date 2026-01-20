@@ -11,15 +11,6 @@ class SmashApiClient
   def characters
     get("/characters")
   end
-
-  def stages
-    get("/stages")
-  end
-
-  def moves(character_id:)
-    get("/moves", { characterId: character_id })
-  end
-
   private
 
   def get(path, params = {})
@@ -31,5 +22,6 @@ class SmashApiClient
       JSON.parse(body)
     else
       body
+    end
   end
 end

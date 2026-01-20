@@ -1,8 +1,24 @@
-<h1>Super Smash Bros Ultimate Roster#index</h1>
+<h1>Smash Bros Vault</h1>
 
+<%= form_with url: fighters_path, method: :get, local: true do %>
+  <%= text_field_tag :q, @query, placeholder: "Search a character..." %>
+  <%= submit_tag "Search" %>
+<% end %>
+
+<% if @wiki_image_url.present? %>
+  <h2><%= @wiki_title %> (from SmashWiki)</h2>
+  <img src="<%= @wiki_image_url %>" alt="<%= @wiki_title %>" style="max-width: 500px;">
+<% end %>
+
+<hr>
+
+<h2>Your CSV / DB Results</h2>
 <ul>
-    <% @characters.each do |ch| %>
-        <li> <%= link_to ch["name"], character_path(ch["id"]) %> </li>
-    <% end %>
+  <% @fighters.each do |f| %>
+    <li>
+      <strong><%= f.display_name %></strong>
+      <!-- show any CSV fields you have -->
+      <!-- example: Universe: <%= f.universe %> -->
+    </li>
+  <% end %>
 </ul>
-<p>Find me in app/views/characters/index.html.erb</p>

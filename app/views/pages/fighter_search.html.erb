@@ -1,0 +1,47 @@
+<h1>Super Smash Bros. Ultimate Character Search</h1>
+
+<form action="/fighter_search" method="get">
+  <label for="character">Character name:</label>
+  <input id="character" name="character" value="<%= @query %>" placeholder="e.g., Mario" />
+  <button type="submit">Search</button>
+</form>
+
+<hr>
+
+<% if @query.present? %>
+
+  <% if @fighters.any? %>
+    <h3>Matches:</h3>
+    <ul>
+      <% @fighters.each do |f| %>
+        <li>
+          <%= link_to f.character, fighter_search_path(character: @query, id: f.id) %>
+        </li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>No fighter found for: <strong><%= @query %></strong></p>
+  <% end %>
+
+  <% if @fighter %>
+    <hr>
+
+    <% if @wiki_image_url.present? %>
+      <img src="<%= @wiki_image_url %>" alt="<%= @fighter.character %>" style="max-width: 300px;">
+    <% end %>
+  
+    <h2><%= @fighter.character %></h2>
+    <ul>
+      <li><strong>Introduced In:</strong> <%= @fighter.introduced_in %></li>
+      <li><strong>Game Series:</strong> <%= @fighter.game_series %></li>
+      <li><strong>Has Spike:</strong> <%= @fighter.has_spike ? " TRUE" : " FALSE" %></li>
+      <li><strong>Has Projectiles:</strong> <%= @fighter.has_projectiles ? " TRUE" : " FALSE" %></li>
+      <li><strong>Has Counter:</strong> <%= @fighter.has_counter ? " TRUE" : " FALSE" %></li>
+      <li><strong>Has Reflector:</strong> <%= @fighter.has_reflector ? " TRUE" : " FALSE" %></li>
+      </div>
+    </ul>
+  <% end %>
+
+<% else %>
+  <p>Type a character name and click Search.</p>
+<% end %>
